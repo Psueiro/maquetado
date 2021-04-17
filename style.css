@@ -45,7 +45,7 @@
 
 .background
 {
-    width: 75%;
+    width: 80%;
     background-color:rgba(58, 50, 50, 0.733);
     padding-top: 20px;
     padding-bottom: 20px;
@@ -61,26 +61,52 @@
     padding-left:10px;
     padding-right: 10px;
     padding-bottom:20px;
+    position:relative;
 }
 
-.foregroundtext
+
+.firstnew
 {
-    width: 50%;
+   position:relative;
+   width: 45%;
+   padding-bottom: 10px;
 }
 
 .secondnew
 {
-   margin-left: 250px
+    position:absolute;
+    width: 44%;
+    right: 72px;
+    bottom: 120px;
+    padding-bottom: 10px;
+
+}
+
+.thirdnew
+{
+   position:relative;
+   width: 45%;
+}
+
+.fourthnew
+{
+   position:absolute;
+   width: 44%;
+   right: 72px;
+   bottom: 20px;
 }
 
 .banner
 {
-    background-color: gray;
+    background-color: rgb(155, 153, 153);
     padding-top: 20px;
+    position:absolute;
+    right: 7.5%;
+    width:15%;
+    margin-right:0;
     padding-left:10px;
     padding-right:10px;
-    padding-bottom: 100px;
-    margin-left:10px;
+    height: 350px;
 }
 
 .footer
